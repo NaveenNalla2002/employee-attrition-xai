@@ -1,0 +1,13 @@
+scikit-learn==1.9.1
+xgboost==3.2.0
+imbalanced-learn==0.14.1
+shap==0.52.0
+lime==0.2.0.1
+interpret-core==0.7.8
+pandas==2.3.3
+numpy==2.4.6
+scipy==1.18.0
+matplotlib==3.10.6
+# only needed to build DISSERTATION.docx (build_report.py)
+python-docx==1.2.0
+# pandoc must also be installed separately (it is not a Python package): https://pandoc.org/installing.html
