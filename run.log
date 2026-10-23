@@ -1,0 +1,20 @@
+[     0s] data ok: (1470, 51), attrition 0.161
+[     1s] CV done: LogReg
+[     2s] CV done: DecisionTree
+[   554s] CV done: EBM
+[   602s] CV done: RandomForest
+[   609s] CV done: XGBoost
+[   614s] final models fitted
+[   649s] explained: LogReg
+[   661s] explained: DecisionTree
+[   673s] explained: EBM
+[   706s] explained: RandomForest
+[   720s] explained: XGBoost
+[   724s] stability done: LogReg
+[   728s] stability done: DecisionTree
+[  1160s] stability done: EBM
+[  1236s] stability done: RandomForest
+[  1246s] stability done: XGBoost
+[  1269s] subgroup audit done
+[  1271s] done
+EXIT=0

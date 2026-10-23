@@ -1,0 +1,46 @@
+{
+  "n_rows": 1470,
+  "n_features_encoded": 51,
+  "n_characteristics": 30,
+  "attrition_rate": 0.16122448979591836,
+  "majority_accuracy": 0.8387755102040817,
+  "n_train": 1176,
+  "n_test": 294,
+  "test_positives": 47,
+  "lime_panel_size": 50,
+  "best_black_box": "XGBoost",
+  "recommended_glass_box": "EBM",
+  "best_configs": [
+    {
+      "Model": "LogReg",
+      "Strategy": "none",
+      "Params": "{\"C\": 1.0}",
+      "CV_PR_AUC": 0.6514396060738317
+    },
+    {
+      "Model": "DecisionTree",
+      "Strategy": "none",
+      "Params": "{\"max_depth\": 4, \"min_samples_leaf\": 10}",
+      "CV_PR_AUC": 0.3912348616100141
+    },
+    {
+      "Model": "EBM",
+      "Strategy": "none",
+      "Params": "{\"max_leaves\": 2}",
+      "CV_PR_AUC": 0.6870620097524097
+    },
+    {
+      "Model": "RandomForest",
+      "Strategy": "smote",
+      "Params": "{\"max_depth\": 8, \"min_samples_leaf\": 5}",
+      "CV_PR_AUC": 0.594067099740444
+    },
+    {
+      "Model": "XGBoost",
+      "Strategy": "smote",
+      "Params": "{\"max_depth\": 2}",
+      "CV_PR_AUC": 0.6429717050005758
+    }
+  ],
+  "runtime_s": 1271
+}
